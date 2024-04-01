@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.wrap{
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    h3{
+        margin-top: 50px;
+    }
+    p{
+        margin-top: 30px;
+    }
+    .shopCartContainer{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        .shopItem{
+            width: 300px;
+            height: 500px;
+            // background-color: #ccc;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            .photo{
+                width: 100%;
+                height: 350px;
+                 background-size: cover;
+                background-position: center;
+            }
+            .pic1{
+                background-image: url(https://portugalfashion.com/wp-content/uploads/2022/05/2.png);
+            }
+             .pic2{
+                background-image: url('https://www.nzherald.co.nz/resizer/h3xFHZP6RGNKGXm4yDRC3iQn6-Q=/640x0/filters:focal(50x158:690x158)/cloudfront-ap-southeast-2.images.arcpublishing.com/nzme/JCIIFBRZK5GTZAATTQA5S2S5IE.jpg');
+            }
+            .price{
+                display: flex;
+                .oldPrice{
+                    color: gray;
+                }
+                .newPrice{
+                    margin-left: 20px;
+                    color: red;
+                }
+            }
+
+        }
+    }
+}
